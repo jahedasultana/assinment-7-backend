@@ -1,7 +1,7 @@
 import { prisma } from "../../../config/db";
 
 const createBlog = async (payload: any) => {
-  console.log('Payload received:', payload);
+ 
   
   if (!payload || Object.keys(payload).length === 0) {
     throw new Error('Blog data is required');
