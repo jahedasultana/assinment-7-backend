@@ -14,7 +14,7 @@ const loginUser = async (payload: { email: string; password: string }) => {
       email: payload.email,
     },
   });
-    console.log('Found user data:', userData); 
+   
 
   if (!userData) {
     throw new AppError(status.NOT_FOUND, "admin Does not exist");
