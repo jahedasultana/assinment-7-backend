@@ -23,10 +23,7 @@ const getSingleBlog = async (id: number) => {
 };
 
 const updateBlog = async (id: number, payload: any) => {
-  return await prisma.blogs.update({
-    where: { id },
-    data: payload,
-  });
+  return ()
 };
 
 const deleteBlog = async (id: number) => {
