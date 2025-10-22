@@ -7,7 +7,7 @@ import { sendResponse } from "../../../utils/sendResponse";
 
 const loginUser = catchAsync(async (req: Request, res: Response) => {
   const data = req.body;
-  console.log(data);
+
   const result = await authService.loginUser(data);
   const { refreshToken } = result;
   res.cookie("refreshToken", refreshToken, { httpOnly: true, secure: false });
