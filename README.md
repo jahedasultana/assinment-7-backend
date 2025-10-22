@@ -4,7 +4,7 @@ A robust REST API built with Node.js and Express, providing data management for 
 
 ## Live Deployment
 
-**API Base URL:** [https://portfolio-backend-w3gx.onrender.com](https://portfolio-backend-w3gx.onrender.com)
+**API Base URL:** [https://assinment-7-backend.vercel.app/](https://assinment-7-backend.vercel.app/)
 
 ## Project Overview
 
@@ -61,7 +61,7 @@ This is the backend API server for the portfolio website that provides:
 
 1. **Clone the repository**
    ```bash
-   git clone <https://github.com/mostaryjahan/portfolio-backend.git>
+   git clone <https://github.com/jahedasultana/assinment-7-backend.git>
    cd portfolio-backend
    ```
 
@@ -91,7 +91,7 @@ This is the backend API server for the portfolio website that provides:
    ```bash
    npm run dev
    ```
-   Server will start at [http://localhost:5000](http://localhost:5000)
+   Server will start at [http://localhost:8000](http://localhost:8000)
 
 ### Production Setup
 
